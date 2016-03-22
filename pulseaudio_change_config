@@ -4,8 +4,9 @@ set -e
 
 if lsusb | grep -qE "(2621:2201|2621:4501)" ; then
     if [ -f /usr/share/pulseaudio/etap/default.pa ] ; then
-        mv /etc/pulse/default.pa /etc/pulse/default.pa.original
-        cp -Rf /usr/share/pulseaudio/etap/default.pa /etc/pulse/default.pa
-        pulseaudio -k
+        if [ ! -f /etc/pulse/default.pa.original ] ; then
+            mv /etc/pulse/default.pa /etc/pulse/default.pa.original
+        fi
+        cp -Rf /usr/share/pulseaudio/etap/default.pa /etc/pulse/default.pa        
     fi    
 fi
