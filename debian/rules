@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+VERSION=$(shell dpkg-parsechangelog --show-field=Version|rev|cut -d- -f2-|rev)
+
+%:
+	dh $@  --with systemd
+
+override_dh_install:
+	dh_install etap/default.pa usr/share/pulseaudio/etap/	
+	chmod 744 debian/eta-sound/usr/share/pulseaudio/etap/default.pa
+	dh_install pulseaudio_change_config usr/bin
+	chmod 755 debian/eta-sound/usr/bin/pulseaudio_change_config
+
