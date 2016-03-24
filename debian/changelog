@@ -1,7 +1,17 @@
-eta-sound (0.1.0-1) unstable; urgency=medium
-  * local package
-  * [c93578d] Initial commit
-  * [7701c36] Add pre-configured pulseaudio default.pa
-  * [2be47cf] Add pulseaudio configuration changer script
+eta-sound (0.1.3) unstable; urgency=low
 
- -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 22 Mar 2016 11:41:27 +0200
+  * Fix script.
+
+ -- Yunusemre Senturk <yunusemre.senturk@pardus.org.tr>  Tue, 23 Mar 2016 14:40:02 +0300
+
+eta-sound (0.1.2) unstable; urgency=low
+
+  * Upstream changes.
+
+ -- Yunusemre Senturk <yunusemre.senturk@pardus.org.tr>  Tue, 22 Mar 2016 17:31:02 +0300
+ 
+eta-sound (0.1.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Yunusemre Senturk <yunusemre.senturk@pardus.org.tr>  Tue, 22 Mar 2016 10:21:02 +0300

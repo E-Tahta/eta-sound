@@ -1,9 +1,11 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: eta-sound
-Source: https://git.pardus.org.tr
+Source: https://pardus.org.tr
+
+
 
 Files: *
-Copyright: 2016 Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+Copyright: 2016 Yunusemre Senturk <yunusemre.senturk@pardus.org.tr>
 License: GPL-3.0+
 
 License: GPL-3.0+
@@ -22,3 +24,5 @@ License: GPL-3.0+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+
