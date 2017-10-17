@@ -1,5 +1,4 @@
 # eta-sound
 
-**Sound optimization for Fatih IWBs
- Some IWB frames that provided by Vestel has some sound configuration
- issues. This project has designed to fix the issue.**
+**This project has been shipped under [eta-soundfix](https://github.com/E-Tahta/eta-soundfix) and no longer supported.**
+
